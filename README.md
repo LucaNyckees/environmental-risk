@@ -9,7 +9,7 @@
 
 This is part of a bigger project in collaboration with [ECCE](https://www.unil.ch/ecce/fr/home.html) at the University of Lausanne (UNIL), whose general workflow can be represented as follows.
 
-![alt text](https://github.com/lucanyckees/environmental-risk/blob/develop/figures/workflows/ecce_workflow.png?raw=true)
+![alt text](https://github.com/LucaNyckees/environmental-risk/tree/main/figures/workflows?raw=true)
 
 ## Description
 
