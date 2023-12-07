@@ -10,7 +10,7 @@ body:
       description: |
         Describe the problem you are facing.
       placeholder: |
-        E.G. We make overfitting in the market value estimation.
+        E.G. We make overfitting in the hail prediction process.
     validations:
       required: true
   - type: textarea
@@ -20,7 +20,7 @@ body:
       description: |
         Describe the issue that'd need "fixing" or enhancement (context).
       placeholder: |
-        E.G. Implement a regularizer paired with the XGBoost model.
+        E.G. Implement a regularizer paired with the hail XGBoost model.
   - type: textarea
     id: context
     attributes:
@@ -29,7 +29,7 @@ body:
         How you became aware of the problem, what other people are affected by this.
       placeholder: |
         E.G.:
-        - Talked to Bob and got feedback on market value predictions on Staging.
+        - Talked to Bob and got feedback on hail results.
   - type: textarea
     id: notes
     attributes:
