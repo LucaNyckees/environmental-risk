@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an idea, an enhancement, a refactor or an update for this project.
+labels: ["feature"]
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: |
+        Describe the problem you are facing.
+      placeholder: |
+        E.G. We make overfitting in the market value estimation.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution(s)
+      description: |
+        Describe the issue that'd need "fixing" or enhancement (context).
+      placeholder: |
+        E.G. Implement a regularizer paired with the XGBoost model.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: |
+        How you became aware of the problem, what other people are affected by this.
+      placeholder: |
+        E.G.:
+        - Talked to Bob and got feedback on market value predictions on Staging.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: |
+        A set of things the assignee should not forget while doing the issue.
+      placeholder: |
+        E.G.:
+        - The function should be general
+        - Use the figma as a reference
+          - etc.
