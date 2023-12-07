@@ -17,8 +17,8 @@ This particular project is consists in the blue module in the workflow image abo
 
 ## Virtual environment
 Use the following command lines to create and use venv python package:
-```◊
-python3.10 -m venv venv
+```
+python3.11 -m venv venv
 ```
 Then use the following to activate the environment:
 ```
